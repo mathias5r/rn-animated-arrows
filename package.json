@@ -1,0 +1,27 @@
+{
+  "name": "AnimatedArrows",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-svg": "6.3.1",
+    "react-native-svg-icon": "^0.8.1",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-jest": "24.5.0",
+    "babel-preset-react-native": "^5",
+    "jest": "24.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
